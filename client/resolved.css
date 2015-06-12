@@ -1,0 +1,208 @@
+/* CSS declarations go here */
+
+.container-fluid{
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+
+img{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#image{
+   background: url(/h2.jpg) no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h4{
+  font-size: 1.1em;
+   color: white;
+  font-family: 'Fredoka One', cursive;  
+}
+.h4{
+  margin-top: 10em;
+}
+
+.h5{
+  
+}
+h5{
+    font-size: 2em;
+  color: white;
+font-family: 'Bevan';
+}
+
+.h1{
+   
+}
+.well{
+  margin-top: 4%;
+  margin-bottom: 14%;
+}
+h1{
+    font-size: 1em;
+  color: white;
+ font-family: 'Bevan', cursive;
+}
+
+.explication{
+  background-color: white;
+  padding: 20px;
+}
+.explication h1{
+ color: black;
+ font-size: 2em;
+ text-align: right;
+}
+.explication p{
+ color: black;
+ font-size: 1.5em;
+ font-family: "URW Palladio L";
+ text-align: justify;
+}
+.rejoindre{
+  background-color: olive;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding: 20px;
+}
+.rejoindre p{
+  color: black;
+  font-size: 1.7em;
+  font-family: purisa;
+  text-align: justify;
+}
+.rejoindre h1{
+ color: black;
+ font-size: 2em;
+}
+.twitte{
+background-color: black;
+padding: 20px;
+}
+.twitte h6{
+  display: inline;
+font-size: 1em;
+color: white;
+}
+.twitte h5{
+display: inline;
+font-size: 1em;
+ color: white;
+ margin-left: 20%;
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+/* ce qui suit concerne les smartphones */
+@media screen and ( max-width: 1024px)
+{
+.container-fluid{
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+
+img{
+   margin-left: 25px;
+  margin-top: 20px;
+}
+
+#image{
+   background: url(/h2.jpg) no-repeat center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h4{
+  font-size: 1.1em;
+   color: white;
+  font-family: 'Fredoka One', cursive;  
+}
+.h4{
+  margin-top: 3em;
+}
+
+.h5{
+  
+}
+h5{
+    font-size: 1.3em;
+  color: white;
+font-family: 'Bevan';
+}
+
+.h1{
+   
+}
+.well{
+  margin-top: 4%;
+  margin-bottom: 14%;
+}
+h1{
+    font-size: 0.8em;
+  color: white;
+ font-family: 'Bevan', cursive;
+}
+
+.explication{
+  background-color: white;
+  padding: 20px;
+}
+.explication h1{
+ color: black;
+ font-size: 1.5em;
+ text-align: right;
+}
+.explication p{
+ color: black;
+ font-size: 1em;
+ font-family: "URW Palladio L";
+ text-align: justify;
+}
+.rejoindre{
+  background-color: olive;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding: 20px;
+}
+.rejoindre p{
+  color: black;
+  font-size: 1em;
+  font-family: purisa;
+  text-align: justify;
+}
+.rejoindre h1{
+ color: black;
+ font-size: 1.5em;
+}
+.twitte{
+background-color: black;
+padding: 20px;
+}
+.twitte h6{
+  display: inline-block;
+font-size: 0.8em;
+color: white;
+text-align: center;
+}
+.twitte h5{
+display: inline-block;
+font-size: 0.8em;
+ color: white;
+ margin-top: 2%;
+}
+} 
+
+/*
+Il faut noter que les largeurs de 625px et 976px sont propres à mon design de base.
+ Ces valeurs peuvent, bien évidemment, être modifiées en fonction de ce que vous souhaitez faire.
+  Les largeurs les plus utilisées pour séparer les affichages sont 320, 480 (smartphones en portrait),
+   720, 768 (smartphones en paysage et tablettes en portrait), 900 et 1024 (tablettes en paysage).*/
